@@ -1,4 +1,4 @@
-# Program Documentation for Microsoft Teams Room Front Row Display Calculator
+# Microsoft Teams Room Front Row Display Size Calculator
 
 ## Overview
 This Python program calculates the required screen dimensions for displaying picture-in-picture (PIP) content in Microsoft Teams Rooms Front Row experience following AVIXA's DISCAS standards. It takes into account the furthest viewer's distance and various aspect ratios to determine the optimal screen size for clear visibility and readability. The program can handle both general and detailed content types and supports commonly used aspect ratios such as 21:9 and 16:9.
