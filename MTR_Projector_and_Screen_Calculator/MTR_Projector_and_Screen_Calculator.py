@@ -124,5 +124,5 @@ print("\nScreen projected view distance recommendations for 21:9 content:\n")
 print_selected_values(output, selected_keys)
 
 print('\nImprovements:')
-print('(Max Ambient Lux for Target Contrast Ratio is the level of ambient light to reduce levels to in the room.  Request Projector Lumens is the amount to increase. Required ALR Ambient Percentage is the amount to increase/reduce.)\n')
+print('(Max Ambient Lux for Target Contrast Ratio is the level of ambient light to reduce levels to in the room.  Request Projector Lumens is the amount to increase. Required ALR Ambient Percentage is the amount to increase/reduce. To arrive at the desired system contrast ratio (black/white difference) {target_contrast_ratio}:1)\n')
 print(formatted_improvements)
