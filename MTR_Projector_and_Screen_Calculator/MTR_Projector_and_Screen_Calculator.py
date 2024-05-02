@@ -101,12 +101,10 @@ formatted_output = format_output(output)
 formatted_improvements = format_improvements(improvements)
 
 # Define the keys you want to print along with custom print statements
-# selected_keys = ['Width meters', 'Height meters', 'Screen Brightness lux', 'Total Effective Brightness with Ambient and ALR', 'System Contrast Ratio']
-selected_keys = ['Width inches', 'Width meters', 'Height inches', 'Height meters', 'Screen Area sq meters', 'Effective Projector Lumens'] #'Screen Brightness lux', 'Total Effective Brightness with Ambient and ALR', 'System Contrast Ratio']
-
+selected_keys = ['Width inches', 'Width meters', 'Height inches', 'Height meters', 'Screen Area sq meters', 'Effective Projector Lumens']
 print("\nScreen and projector properties:\n")
 print_selected_values(output, selected_keys)
-# selected_keys = ['Screen Brightness lux', 'Total Effective Brightness with Ambient and ALR', 'System Contrast Ratio']
+
 selected_keys = ['Screen Brightness lux',
                      'Total Effective Brightness with Ambient and ALR',
                      'Effective Ambient Lux',
