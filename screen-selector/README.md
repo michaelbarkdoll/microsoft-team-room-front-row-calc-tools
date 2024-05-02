@@ -32,6 +32,7 @@ Modify the `furthest_distance`, `diagonal`, and `area_factor` variables based on
 diagonal = 150  # Modify this as per the screen size you are evaluating
 furthest_distance = 17  # Set this to the distance from the screen to the furthest viewer in your setup
 area_factor = 0.6  # Adjust this based on how much you want to reduce the main content size
+```
 
 After setting the variables, execute the program. The output will include the recommended screen dimensions for both 21:9 and 16:9 content, along with the minimum and maximum viewing distances for each setup.
 
@@ -45,7 +46,7 @@ After setting the variables, execute the program. The output will include the re
 python <filename>.py
 ```
 
-    - Review the output directly in your CLI to see the calculated dimensions and viewing distances.
+Review the output directly in your CLI to see the calculated dimensions and viewing distances.
 
 This program ensures that all participants in a Microsoft Teams Room can comfortably view presentations and other content, adhering closely to professional AV standards.
 
