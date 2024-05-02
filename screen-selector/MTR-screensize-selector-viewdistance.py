@@ -40,7 +40,7 @@ aspect_ratio_height_21_9 = 9
 aspect_ratio_width_16_9 = 16
 aspect_ratio_height_16_9 = 9
 area_factor = 0.6       # Size reduction percentage of Microsoft Teams Room Front Row main content reduction 60%
-furthest_distance = 20  # furthest viewer is 20 feet away
+furthest_distance = 17  # furthest viewer is 17 feet away
 
 # Calculate height (H) and width (W) of the original screen (21:9)
 H = diagonal / math.sqrt((aspect_ratio_width_21_9 / aspect_ratio_height_21_9) ** 2 + 1)
@@ -74,6 +74,8 @@ discas_min_16_9_60 = 1.5 * H_16_9_60_percent
 discas_max_16_9_60 = 2.0 * H_16_9_60_percent
 
 # Print the results in the desired format
+# The following helps determine the required screen size for a MTR Front Row experience picture in picture using DISCAS min and max view distance.
+# Note: in this case MTR has reduced the main content image by the area_factor 60% and were showing what the recommended screen size for that content is to see be readable.
 print("Native Aspect Ratio (21:9)\n")
 print("Full Screen Dimensions:\n")
 print(f"    Width: {W:.2f} inches")
@@ -102,7 +104,7 @@ print(f"    DISCAS Min Viewing Distance: {discas_min_16_9_60:.2f} inches ({inche
 print(f"    DISCAS Max Viewing Distance: {discas_max_16_9_60:.2f} inches ({inches_to_feet_and_inches(discas_max_16_9_60)})\n")
 
 
-# Example usage
+# The following outputs the required screen size for the furtherest viewer for both 16:9 and 21:9 content for MTR Front Row Picture-in-picture
 
 
 aspect_ratio_width = 16
