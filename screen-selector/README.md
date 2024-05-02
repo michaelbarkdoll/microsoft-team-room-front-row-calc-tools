@@ -1,4 +1,4 @@
-# Program Documentation for Microsoft Teams Room Display Calculator
+# Program Documentation for Microsoft Teams Room Front Row Display Calculator
 
 ## Overview
 This Python program calculates the required screen dimensions for displaying picture-in-picture (PIP) content in Microsoft Teams Rooms Front Row experience following AVIXA's DISCAS standards. It takes into account the furthest viewer's distance and various aspect ratios to determine the optimal screen size for clear visibility and readability. The program can handle both general and detailed content types and supports commonly used aspect ratios such as 21:9 and 16:9.
@@ -47,6 +47,51 @@ python <filename>.py
 ```
 
 Review the output directly in your CLI to see the calculated dimensions and viewing distances.
+
+```shell 
+$ python3.9 MTR-screensize-selector-viewdistance.py
+Native Aspect Ratio (21:9)
+
+Full Screen Dimensions:
+
+    Width: 137.87 inches
+    Height: 59.09 inches
+    Diagonal: 150.00 inches
+    DISCAS Min Viewing Distance: 88.63 inches (7ft 4.6in)
+    DISCAS Max Viewing Distance: 118.18 inches (9ft 10.2in)
+
+60% Screen Dimensions (size of 21:9 content in picture-in-picture):
+
+    Width: 106.80 inches
+    Height: 45.77 inches
+    Diagonal: 116.19 inches
+    DISCAS Min Viewing Distance: 68.65 inches (5ft 8.7in)
+    DISCAS Max Viewing Distance: 91.54 inches (7ft 7.5in)
+
+Common Aspect Ratio (16:9)
+
+Full Screen Dimensions:
+
+    Width: 105.05 inches
+    Height: 59.09 inches
+    Diagonal: 120.52 inches
+    DISCAS Min Viewing Distance: 88.63 inches (7ft 4.6in)
+    DISCAS Max Viewing Distance: 118.18 inches (9ft 10.2in)
+
+60% Screen Dimensions (size of 16:9 content pillarboxed on 21:9 in picture-in-picture):
+
+    Width: 81.37 inches
+    Height: 45.77 inches
+    Diagonal: 93.36 inches
+    DISCAS Min Viewing Distance: 68.65 inches (5ft 8.7in)
+    DISCAS Max Viewing Distance: 91.54 inches (7ft 7.5in)
+
+DISCAS minimum screen dimensions for aspect ratio 16:9 furthest viewer 20 ft:
+Minimum screen dimensions for general 16:9 content at a distance of 20 ft: 53.33 inches (width) x 30.00 inches (height) diag: 61.191865835619396 inches
+Minimum screen dimensions for detailed 16:9 content at a distance of 20 ft: 106.67 inches (width) x 60.00 inches (height) diag: 122.38373167123879 inches
+Minimum screen dimensions for general 21:9 content at a distance of 20 ft: 70.00 inches (width) x 30.00 inches (height) diag: 76.15773105863909 inches
+Minimum screen dimensions for detailed 21:9 content at a distance of 20 ft: 140.00 inches (width) x 60.00 inches (height) diag: 152.31546211727817 inches
+```
 
 This program ensures that all participants in a Microsoft Teams Room can comfortably view presentations and other content, adhering closely to professional AV standards.
 
