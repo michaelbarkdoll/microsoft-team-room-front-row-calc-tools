@@ -1,0 +1,8 @@
+model_name,screen_gain,color_factor,color_factor_percentage,alr_percentage,aspect_ratio,diag_size
+XH700X Grey,0.7,0.7,30,57,16:9,135
+XH800X ALR,0.8,0.65,35,57,16:9,135
+XH900X ALR,0.9,0.6,40,60,16:9,135
+MS1000X ALR,1.0,0.5,50,73,16:9,135
+CS1000X ALR,1.2,0.5,50,82,16:9,135
+CS1200X ALR,1.2,0.5,50,82,16:9,135
+
